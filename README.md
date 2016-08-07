@@ -18,7 +18,7 @@ public class JStoCsharpWebviewRenderer : WebViewRenderer
 }
 ```
 
-##### 2 - The next class will be a bridge between Javascript and C#
+##### 2 - The next class will be a bridge between Javascript and CSharp
 ```csharp
 public class JSBridge : Java.Lang.Object
 {
@@ -49,7 +49,7 @@ public class JStoCsharpWebviewRenderer : WebView
         <html>
           <body>
             <h3>Demo calling C# from JavaScript</h3>
-            <button type=""button"" onClick=""CSharp.ShowToast('Hello from Javascript')"">Native Interaction</button>
+            <button type=""button"" onClick=""CSharp.ShowToast('Hello from JS')"">Native Interaction</button>
           </body>
         </html>";
 
